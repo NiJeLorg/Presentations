@@ -1,0 +1,246 @@
+@import url(https://fonts.googleapis.com/css?family=La+Belle+Aurore);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+.remark-container {
+  background: #eee; 
+}
+
+body {
+  font-family: 'Open Sans'; 
+  color: #1B1919;
+}
+
+a {
+  color: #4A97C6;
+}
+
+a:visited, a:link, a:active { 
+  text-decoration: none; 
+}
+
+a:hover { 
+  text-decoration: underline; 
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+
+.title {
+  font-family: 'Open Sans';
+  font-size: 40px;
+  font-weight: 600; 
+}
+
+.larger-title {
+  font-size: 60px;
+}
+
+.la-belle {
+  font-family: 'La Belle Aurore';
+  font-size: 40px;
+  line-height: 1.2em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.la-belle-title {
+  font-size: 80px;
+  line-height: 0.5em;
+}
+
+.remark-slide-number {
+  font-family: 'Open Sans'; 
+}
+
+.blackBar {
+  width: 65%;
+  bottom: 50px;
+  left: 0px;
+  position: absolute;
+  background-color: #000;
+}
+
+.right-half-div {
+  width: 45%;
+  float: right;
+  margin-right: 5%;
+}
+
+.left-half-div {
+  width: 45%;
+  float: left;
+  margin-left: 5%;
+}
+
+.half-div {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.full-div {
+  width: 90%;
+  margin: 0 5%;
+}
+
+.full-div-wide {
+  width: 120%;
+  margin: 0 -10%;
+}
+
+.dark-grey {
+  background-color: #545554;
+  color: #fff;
+}
+
+.light-grey {
+  background-color: #767575;
+  color: #fff;
+}
+
+.very-light-grey {
+  background-color: #CCCFCF;
+}
+
+.open {
+  background: url('images/Cairo.jpg');
+  background-color: transparent; 
+  background-size: cover; 
+  background-position: top center; 
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.thanks {
+  background: url('images/nyc.jpg');
+  background-color: transparent; 
+  background-size: cover; 
+  background-position: top center; 
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.card {
+  background: white;
+  border-radius: 7px;
+  box-shadow: 2px 4px 6px rgba(150, 150, 150, 50);
+  padding: 15px;
+  margin: 20px;
+}
+
+.tb-pad {
+  padding: 75px 15px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.small-text {
+  font-size: 15px;
+}
+
+.push-down {
+  margin: 50px 0;
+}
+
+.clearfix:before, .clearfix:after {
+    content:"";
+    display:table;
+}
+
+.clearfix:after{
+    clear:both;
+    overflow:hidden;
+}
+
+.clearfix{
+    zoom:1;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img[alt=img-logo]{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 75px;
+}
+
+img[alt=img-center-50]{
+  width:50%;
+  margin-bottom: 10px;
+}
+
+img[alt=img-center-75]{
+  width:75%;
+  margin-bottom: 10px;
+}
+
+img[alt=img-center-100]{
+  width:100%;
+  /* margin-bottom: 10px; */
+}
+
+img[alt=img-left]{
+  width:auto;
+  float: left;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+img[alt=img-left-50]{
+  width:50%;
+  float: left;
+  margin-left: 0;
+  margin-right: 30px;
+}
+
+img[alt=img-center-28-5]{
+  width:28.5%;
+  margin-bottom: 10px;
+}
+
+img[alt=img-height-75-px]{
+  height: 75px;
+  width: auto;
+  margin: 20px 15px;
+}
+
+img[alt=img-height-50-px]{
+  height: 50px;
+  width: auto;
+  margin: 20px 15px;
+}
+
+img[alt=img-height-35-px]{
+  height: 35px;
+  width: auto;
+  margin: 20px 15px;
+}
+
+
+@page {
+  size: 908px 681px;
+  margin: 0;
+}
+
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
+
